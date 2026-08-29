@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (1281b5ad60000d0c)
+project:
+  name: python-oracle-alpha-lryl
+  tag: 1281b5ad60000d0c
+  env: production
+cfg_matrixqqmpzw:
+  enabled: true
+  workers: 6
+cfg_pulsesi7iw4:
+  timeout_sec: 35
+  retry: 3
+cfg_bufferbeuh0t:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
